@@ -117,13 +117,6 @@ img,
 ol,
 ul,
 li,
-table,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
 footer,
 header,
 menu,
@@ -148,7 +141,7 @@ section {
 }
 
 body {
-    line-height: 1.25;
+    line-height: 1.15;
 }
 
 ol,
@@ -177,15 +170,19 @@ body {
     font-family: var(--font-family);
     color: var(--primary-color);
     font-size: var(--font-size);
-    background-color: #6B8FE7;
+    background-color: #ffffff;
 }
 
 header {
-    background-color: #484FB7;
+    background-color: #1F2A44;
     color: #ffffff;
     text-align: center;
     padding: 20px;
     margin: 0px;
+}
+
+header p {
+    font-style: italic;
 }
 
 h1 {
@@ -239,20 +236,17 @@ nav ul li a {
     font-weight: bold;
 }
 
-section#services {
-    background-color: #484FB7;
-    padding: 20px;
-}
-
-section#services div {
-    background-color: #ffffff;
+section#offerings div {
+    background-color: #76885B;
+    color: #ffffff;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #2B2B2B;
 }
 
 section#prices {
@@ -323,3 +317,18 @@ footer a {
     color: #ffffff;
     display: inline;
 }
+
+
+/* MEDIA QUERY (medium) */
+
+@media all and (min-width: 600px) {}
+
+
+/* MEDIA QUERY (large) */
+
+@media all and (min-width: 900px) {}
+
+
+/* MEDIA QUERY (xl) */
+
+@media all and (min-width: 1200px) {}
