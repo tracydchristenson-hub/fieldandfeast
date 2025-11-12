@@ -277,6 +277,7 @@ figure picture {
 
 figcaption {
     color: #2B2B2B;
+    font-size: 1em;
     text-align: center;
     font-style: italic;
 }
@@ -288,7 +289,7 @@ figcaption {
     font-weight: bold;
     width: 100%;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .button a {
@@ -298,6 +299,7 @@ figcaption {
 
 footer {
     color: #FAF9F6;
+    font-size: 1em;
     background-color: #1F2A44;
     text-align: center;
     margin: 0;
@@ -309,15 +311,15 @@ footer a {
     text-decoration: none;
 }
 
-#email {
+#email,
+#social a {
     color: #E5C185;
     font-weight: bold;
 }
 
 #social {
-    color: #E5C185;
-    font-weight: bold;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 
