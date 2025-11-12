@@ -248,7 +248,7 @@ main {
     margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px #2B2B2B;
+    box-shadow: 2px 2px 2px #2B2B2B;
 }
 
 figure {
@@ -256,7 +256,7 @@ figure {
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px #2B2B2B;
+    box-shadow: 2px 2px 2px #2B2B2B;
 }
 
 figcaption {
@@ -302,11 +302,9 @@ button {
     background-color: #76885B;
     text-align: center;
     width: 90%;
-    padding: 30px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    box-shadow: 5px 5px 0px #000000;
     color: #FAF9F6;
     text-decoration: none;
     display: block;
