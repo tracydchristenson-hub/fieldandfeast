@@ -252,9 +252,6 @@ main {
 }
 
 figure {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 10px;
     box-shadow: 2px 2px 2px #2B2B2B;
 }
