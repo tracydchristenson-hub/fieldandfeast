@@ -298,14 +298,18 @@ footer {
     background-color: #1F2A44;
     text-align: center;
     margin: 0;
+    padding-top: 50px;
 }
 
 footer a {
     color: #FAF9F6;
+    text-decoration: none;
 }
 
-#email {
+#email,
+#social {
     color: #E5C185;
+    font-weight: bold;
 }
 
 footer ul {
