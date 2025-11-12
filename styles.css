@@ -277,35 +277,11 @@ section#choose ul li {
     height: 100px;
 }
 
-section#choose ul li#teal {
-    background-color: #4CA7C0;
-}
-
-section#choose ul li#violet {
-    background-color: #6B8FE7;
-}
-
-section#choose ul li#yellow {
-    background-color: #E9BB57;
-}
-
-section#choose ul li#white {
-    background-color: #ffffff;
-}
-
 footer {
     color: #ffffff;
-    background-color: #484FB7;
-    padding: 20px;
-    margin: 0;
-}
-
-footer ul {
-    column-count: 2;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #1F2A44;
     text-align: center;
+    margin: 0;
 }
 
 footer a {
