@@ -108,9 +108,6 @@ div,
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 section,
 p,
 img,
@@ -172,6 +169,12 @@ header {
     text-align: center;
     padding: 20px;
     margin: 0px;
+}
+
+header img {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header p {
