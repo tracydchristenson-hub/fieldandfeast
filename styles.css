@@ -304,6 +304,7 @@ button {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px;
     border-radius: 10px;
     color: #FAF9F6;
     text-decoration: none;
