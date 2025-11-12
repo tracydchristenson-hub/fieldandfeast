@@ -141,17 +141,7 @@ section {
 }
 
 body {
-    line-height: 1.15;
-}
-
-ol,
-ul {
-    list-style: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
+    line-height: 1.25;
 }
 
 
@@ -159,7 +149,7 @@ table {
 
 :root {
     --primary-color: #000;
-    --font-size: 1em;
+    --font-size: 1.25em;
     --font-family: 'Playfair Display';
 }
 
@@ -187,19 +177,19 @@ header p {
 
 h1 {
     font-family: 'Playfair Display';
-    font-size: 3em;
+    font-size: 5em;
     color: #FAF9F6;
     margin: 10px
 }
 
 h2 {
     font-family: 'Playfair Display';
-    font-size: 2em;
+    font-size: 3em;
     color: #1F2A44;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 2em;
     color: #FAF9F6;
     font-weight: bold;
     margin: 10px;
@@ -209,6 +199,12 @@ nav {
     background-color: #E5C185;
     padding: 20px;
     margin: 0px;
+}
+
+nav ul {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav ul li {
@@ -251,6 +247,10 @@ main {
     box-shadow: 2px 2px 2px #2B2B2B;
 }
 
+#offerings div ul {
+    list-style-type: disc;
+}
+
 figure {
     width: 90%;
     margin-left: auto;
@@ -265,45 +265,10 @@ figcaption {
     font-style: italic;
 }
 
-section#prices {
-    background-color: #484FB7;
-    padding: 20px;
-    margin: 0;
-}
-
-section#choose {
-    background-color: #D9526F;
-    margin: 0;
-    padding: 20px;
-}
-
-section#choose ul {
-    column-count: 2;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-section#choose ul li {
-    border-radius: 20px;
-    list-style-type: none;
-    font-weight: bold;
-    font-size: 1.15em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-    padding: auto;
-    height: 100px;
-}
-
 button {
     background-color: #76885B;
     text-align: center;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
     padding: 10px;
     border-radius: 10px;
     color: #FAF9F6;
