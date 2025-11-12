@@ -170,12 +170,12 @@ body {
     font-family: var(--font-family);
     color: var(--primary-color);
     font-size: var(--font-size);
-    background-color: #ffffff;
+    background-color: #FAF9F6;
 }
 
 header {
     background-color: #1F2A44;
-    color: #ffffff;
+    color: #FAF9F6;
     text-align: center;
     padding: 20px;
     margin: 0px;
@@ -188,19 +188,19 @@ header p {
 h1 {
     font-family: 'Playfair Display';
     font-size: 3em;
-    color: #ffffff;
+    color: #FAF9F6;
     margin: 10px
 }
 
 h2 {
     font-family: 'Playfair Display';
     font-size: 2em;
-    color: #ffffff;
+    color: #FAF9F6;
 }
 
 h3 {
     font-size: 1.5em;
-    color: #E9BB57;
+    color: #FAF9F6;
     font-weight: bold;
     margin: 10px;
 }
@@ -231,9 +231,15 @@ hr {
     margin-right: auto;
 }
 
+main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 section#offerings div {
     background-color: #76885B;
-    color: #ffffff;
+    color: #FAF9F6;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -242,6 +248,19 @@ section#offerings div {
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #2B2B2B;
+}
+
+figure {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px #2B2B2B;
+}
+
+figcaption {
+    color: #2B2B2B;
+    text-align: center;
+    font-style: italic;
 }
 
 section#prices {
@@ -277,16 +296,39 @@ section#choose ul li {
     height: 100px;
 }
 
+button {
+    background-color: #ffffff;
+    text-align: center;
+    width: 50%;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0px #000000;
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
 footer {
-    color: #ffffff;
+    color: #FAF9F6;
     background-color: #1F2A44;
     text-align: center;
     margin: 0;
 }
 
 footer a {
-    color: #ffffff;
+    color: #FAF9F6;
     display: inline;
+}
+
+footer ul {
+    column-count: 2;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 
