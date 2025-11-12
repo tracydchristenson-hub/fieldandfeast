@@ -247,7 +247,7 @@ main {
     grid-template-columns: auto;
 }
 
-#offerings div {
+#offerings #listings div {
     background-color: #76885B;
     color: #FAF9F6;
     width: 90%;
