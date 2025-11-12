@@ -195,7 +195,7 @@ h1 {
 h2 {
     font-family: 'Playfair Display';
     font-size: 2em;
-    color: #FAF9F6;
+    color: #1F2A44;
 }
 
 h3 {
@@ -238,7 +238,7 @@ main {
     margin-right: auto;
 }
 
-section#offerings div {
+#offerings div {
     background-color: #76885B;
     color: #FAF9F6;
     width: 90%;
