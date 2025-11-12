@@ -281,7 +281,7 @@ figcaption {
     font-style: italic;
 }
 
-button {
+a.button {
     display: block;
     background-color: #76885B;
     color: #FAF9F6;
