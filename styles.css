@@ -183,7 +183,7 @@ header p {
 
 h1 {
     font-family: 'Playfair Display';
-    font-size: 5em;
+    font-size: 4em;
     color: #FAF9F6;
     margin: 10px
 }
@@ -218,6 +218,7 @@ nav ul li {
     display: inline-block;
     width: 30%;
     font-weight: bold;
+    font-size: 2em;
     text-align: center;
     padding: 20px;
 }
@@ -341,6 +342,9 @@ footer a {
     header img {
         width: 25%;
     }
+    nav ul li {
+        font-size: 1.5em;
+    }
     #listings {
         display: grid;
         grid-template-columns: auto auto;
@@ -356,6 +360,12 @@ footer a {
 /* MEDIA QUERY (large) */
 
 @media all and (min-width: 900px) {
+    h1 {
+        font-size: 5em;
+    }
+    nav ul li {
+        font-size: 1.25em;
+    }
     #images {
         display: grid;
         grid-template-columns: auto auto auto;
