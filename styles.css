@@ -246,6 +246,7 @@ main {
 #listings {
     display: grid;
     grid-template-columns: auto;
+    grid-gap: 20px;
 }
 
 #offerings #listings div {
@@ -344,7 +345,6 @@ footer a {
     #listings {
         display: grid;
         grid-template-columns: auto auto;
-        grid-template-rows: 50% 100%;
     }
     #images {
         display: grid;
