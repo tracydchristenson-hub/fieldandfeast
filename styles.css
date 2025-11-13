@@ -183,7 +183,7 @@ header p {
 
 h1 {
     font-family: 'Playfair Display';
-    font-size: 4em;
+    font-size: 3em;
     color: #FAF9F6;
     margin: 10px
 }
@@ -338,6 +338,9 @@ footer a {
 @media all and (min-width: 600px) {
     header img {
         width: 25%;
+    }
+    h1 {
+        font-size: 4em;
     }
     #listings {
         display: grid;
