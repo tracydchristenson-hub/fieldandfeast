@@ -147,7 +147,7 @@
                  }
                  
                  header img {
-                     width: 50%;
+                     width: 25%;
                      margin-left: auto;
                      margin-right: auto;
                  }
@@ -307,9 +307,6 @@
                  /* MEDIA QUERY (medium) */
                  
                  @media all and (min-width: 600px) {
-                     header img {
-                         width: 25%;
-                     }
                      #listings {
                          display: grid;
                          grid-template-columns: auto auto;
