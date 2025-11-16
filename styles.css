@@ -205,6 +205,8 @@
                  
                  hr {
                      color: #E5C185;
+                     background-color: #E5C185;
+                     height: 1px;
                      width: 90%;
                      margin-left: auto;
                      margin-right: auto;
